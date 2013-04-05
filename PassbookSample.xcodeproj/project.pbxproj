@@ -19,6 +19,8 @@
 		F690B84A170A85A6000A6639 /* VKardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F690B849170A85A6000A6639 /* VKardViewController.m */; };
 		F690B84D170A85A6000A6639 /* VKardViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F690B84B170A85A6000A6639 /* VKardViewController_iPhone.xib */; };
 		F690B850170A85A7000A6639 /* VKardViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F690B84E170A85A7000A6639 /* VKardViewController_iPad.xib */; };
+		F690B858170A87B1000A6639 /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = F690B857170A87B1000A6639 /* pass.json */; };
+		F690B85A170A93C7000A6639 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F690B859170A93C7000A6639 /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,16 @@
 		F690B849170A85A6000A6639 /* VKardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKardViewController.m; sourceTree = "<group>"; };
 		F690B84C170A85A6000A6639 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKardViewController_iPhone.xib; sourceTree = "<group>"; };
 		F690B84F170A85A7000A6639 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VKardViewController_iPad.xib; sourceTree = "<group>"; };
+		F690B857170A87B1000A6639 /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		F690B859170A93C7000A6639 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		F690B85C170A97FF000A6639 /* Certificates.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates.p12; sourceTree = "<group>"; };
+		F690B85D170A98A4000A6639 /* WWDR.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = WWDR.pem; sourceTree = "<group>"; };
+		F690B85E170A98D4000A6639 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F690B85F170A98D4000A6639 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F690B860170A98D4000A6639 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F690B861170A98D4000A6639 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		F690B862170A98D4000A6639 /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		F690B863170A98D5000A6639 /* strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strip@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 		F690B824170A85A6000A6639 = {
 			isa = PBXGroup;
 			children = (
+				F690B856170A878E000A6639 /* pass */,
 				F690B836170A85A6000A6639 /* PassbookSample */,
 				F690B82F170A85A6000A6639 /* Frameworks */,
 				F690B82E170A85A6000A6639 /* Products */,
@@ -108,6 +121,23 @@
 				F690B846170A85A6000A6639 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F690B856170A878E000A6639 /* pass */ = {
+			isa = PBXGroup;
+			children = (
+				F690B85E170A98D4000A6639 /* icon.png */,
+				F690B85F170A98D4000A6639 /* icon@2x.png */,
+				F690B860170A98D4000A6639 /* logo.png */,
+				F690B861170A98D4000A6639 /* logo@2x.png */,
+				F690B862170A98D4000A6639 /* strip.png */,
+				F690B863170A98D5000A6639 /* strip@2x.png */,
+				F690B85D170A98A4000A6639 /* WWDR.pem */,
+				F690B85C170A97FF000A6639 /* Certificates.p12 */,
+				F690B859170A93C7000A6639 /* manifest.json */,
+				F690B857170A87B1000A6639 /* pass.json */,
+			);
+			name = pass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +198,8 @@
 				F690B847170A85A6000A6639 /* Default-568h@2x.png in Resources */,
 				F690B84D170A85A6000A6639 /* VKardViewController_iPhone.xib in Resources */,
 				F690B850170A85A7000A6639 /* VKardViewController_iPad.xib in Resources */,
+				F690B858170A87B1000A6639 /* pass.json in Resources */,
+				F690B85A170A93C7000A6639 /* manifest.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
